@@ -10,10 +10,11 @@ def mismatches_heuristics(env: SlidingPuzzle, state: Tuple[Tuple[int, ...], ...]
         goal_row = goal[row_ind]
         for col_ind, tile in enumerate(row):
             goal_tile = goal_row[col_ind]
-            if goal_tile != tile and tile != BLANK: # blank not included see h1 page 115 Russel & Norvig
+            if goal_tile != tile and tile != BLANK:  # blank not included see h1 page 115 Russel & Norvig
                 mismatched += 1
 
     return mismatched
+
 
 # h2 from page 116 Russel & Norvig
 def manhattan_distance_heuristics(env: SlidingPuzzle, state: Tuple[Tuple[int, ...], ...], goal: Tuple[Tuple[int, ...], ...]) -> int:
