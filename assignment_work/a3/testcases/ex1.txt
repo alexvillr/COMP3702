@@ -1,0 +1,26 @@
+# n_rows, n_cols ==============
+4, 5
+# environment seed ============
+3485
+# solver type =================
+q-learn
+# discount factor =============
+0.999
+# learning rate ===============
+0.01
+# training reward target ======
+-170000.0
+# evaluation reward target ====
+-5.1
+# training time target ========
+10.0
+# hex grid data ===============
+/XX\__/D.\__/XX\
+\__/  \__/  \__/
+/XX\__/  \__/XX\
+\__/  \__/XX\__/
+/XX\__/  \__/XX\
+\__/  \__/  \__/
+/TT\__/XX\__/TT\
+\__/XX\__/XX\__/
+   \__/  \__/

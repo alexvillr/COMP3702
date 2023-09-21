@@ -1,0 +1,40 @@
+# n_rows, n_cols ==============
+4, 5
+# transition probabilities ====
+# double move probs
+0.25, 0.10, 0.0, 0.0
+# drift CW probs
+0.05, 0.025, 0.0, 0.0
+# drift CCW probs
+0.05, 0.025, 0.0, 0.0
+# penalties ===================
+# collision penalty
+3.0
+# hazard penalty
+10.0
+# solver type =================
+pi
+# discount factor =============
+0.999
+# epsilon =====================
+0.01
+# iterations target ===========
+20
+# offline time target =========
+15.0
+# online time target ==========
+0.1
+# reward target ===============
+-37.15
+# episode seed ================
+1312
+# hex grid data ===============
+/aa\__/  \__/TT\
+\__/  \__/  \__/
+/3V\__/XX\__/TT\
+\__/  \__/  \__/
+/aa\__/  \__/TT\
+\__/  \__/  \__/
+/UR\__/  \__/  \
+\__/  \__/!!\__/
+   \__/  \__/
