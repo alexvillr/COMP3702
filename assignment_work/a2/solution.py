@@ -87,10 +87,7 @@ class Solver:
                     ).items():
                         stoch_action_rewards = dict()
                         for stoch_action in stoch_actions:
-                            (
-                                reward,
-                                next_state,
-                            ) = self.environment.apply_dynamics(
+                            (reward, next_state) = self.environment.apply_dynamics(
                                 state, stoch_action
                             )
                             stoch_action_rewards[stoch_action] = reward
